@@ -1,0 +1,117 @@
+body {
+    font-family: font-family: "Montserrat", sans-serif;;
+    
+}
+header,footer {
+    background-color: black;
+    color: bisque;
+    width: 100%;
+}
+
+
+
+header h2{
+    font-size: 30px;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none; 
+    display: inline-block;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0 15px;
+   text-transform: capitalize;
+}
+/* utility classes */ 
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.hero_image {
+    background: url(hero\ image2.avif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero_wrapper {
+   color:  rgba(255, 255, 255, 0.938);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.hero_wrapper h1 {
+    font-size: 3rem;
+     text-align: center;
+}
+.hero_wrapper span {
+    margin-left: 4.7rem;
+    display:inline-block;
+    margin-bottom: .5rem;
+
+}
+.form_code {
+  text-align: center;
+}
+
+.form_code .post_code {
+     display: block;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 2rem;
+     padding: .6rem;
+     border: none;
+     outline: none;
+
+}
+.form_code button {
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: black;
+background-color: rgb(233, 8, 8);
+padding: .6rem;
+margin-top:1rem;
+border: none;
+border-radius: .3rem;
+}
+
+
+/* product section */
+
+.product {
+    width: 90%;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list_items {
+    float: left;
+    width: 32%;
+    margin-left: .5rem;
+}
+
+@media screen  and (max-width: 700px) {
+    .product_list_items
+}   
+ {   width: 100%;
+    float: none;
+    
+}
